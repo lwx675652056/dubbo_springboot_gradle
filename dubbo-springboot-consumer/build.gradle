@@ -1,0 +1,9 @@
+
+dependencies {
+    compile ("org.springframework.boot:spring-boot-starter-web")
+    compile ("io.springfox:springfox-swagger2:2.6.1")
+    compile ("io.springfox:springfox-swagger-ui:2.6.1")
+
+    //swagger 自定义ui 调用地址：http://${host}:${port}/docs.html 新页面
+    compile ("com.github.caspar-chen:swagger-ui-layer:0.0.6")
+}

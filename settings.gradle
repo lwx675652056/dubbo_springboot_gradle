@@ -1,0 +1,5 @@
+rootProject.name = 'dubbo_springboot_gradle'
+include 'dubbo-springboot-dao'
+include 'dubbo-springboot-consumer'
+include 'dubbo-springboot-provider'
+
